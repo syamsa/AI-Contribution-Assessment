@@ -1,26 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>AI Contribution Assessment</title>
-<link rel="stylesheet" href="style.css">
-</head>
-<body>
-<div class="container">
-<h1>AI Contribution Assessment (ACA)</h1>
-
-<label>Task Type</label>
-<select id="task"></select>
-
-<div id="phases"></div>
-
-<button onclick="calculate()">Calculate</button>
-
-<div id="result" class="card"></div>
-</div>
-
-<script src="config.js"></script>
-<script src="script.js"></script>
-</body>
-</html>
+<html><head><link rel='stylesheet' href='style.css'></head><body><div class='layout'><div class='left'><h1>AI Contribution Assessment (ACA)</h1><label>Task Type</label><select id='task'></select><div id='phases'></div><button onclick='calculate()'>Calculate</button><div id='result'></div><div id='details'></div></div><div class='right'><h2>Scoring Guide</h2><h3>AI Involvement</h3><table><tr><th>Level</th><th>%</th></tr><tr><td>None</td><td>0</td></tr><tr><td>Explained</td><td>25</td></tr><tr><td>Suggested</td><td>50</td></tr><tr><td>Generated</td><td>75</td></tr><tr><td>Completed</td><td>100</td></tr></table><h3>Human Rework</h3><table><tr><th>Level</th><th>%</th></tr><tr><td>Used As-Is</td><td>100</td></tr><tr><td>Minor Edit</td><td>80</td></tr><tr><td>Moderate Edit</td><td>60</td></tr><tr><td>Major Rewrite</td><td>30</td></tr><tr><td>Discarded</td><td>0</td></tr></table><div class='example'><b>Example</b><br>20 × 1.00 × 0.80 = 16</div></div></div><script src='config.js'></script><script src='script.js'></script>
+<hr>
+<a href="Assessment.html" target="_blank">Assessment Guide</a></body></html>

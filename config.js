@@ -1,13 +1,1 @@
-
-const CONFIG={
-tasks:["Bug Fix","New Development","Unit Test","Documentation","PR Review"],
-phases:[
-{name:"Understand",weight:20},
-{name:"Investigate",weight:25},
-{name:"Create",weight:30},
-{name:"Verify",weight:15},
-{name:"Deliver",weight:10}
-],
-aiLevels:["None","Explained","Suggested","Generated","Completed"],
-rework:["Used As-Is","Minor Edit","Moderate Edit","Major Rewrite","Discarded"]
-};
+const CONFIG={tasks:['Bug Fix','New Development','Unit Test','Documentation','PR Review'],phases:[{name:'Understand',weight:20},{name:'Investigate',weight:25},{name:'Create',weight:30},{name:'Verify',weight:15},{name:'Deliver',weight:10}],ai:['None','Explained','Suggested','Generated','Completed'],rw:['Used As-Is','Minor Edit','Moderate Edit','Major Rewrite','Discarded'],rwf:[1,.8,.6,.3,0]};

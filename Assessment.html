@@ -1,0 +1,302 @@
+<div class="right">
+
+    <h2>Assessment Guide</h2>
+
+    <div class="guide-section">
+        <h3>Understand (20%)</h3>
+
+        <p><strong>What are you assessing?</strong></p>
+
+        <p>
+            Assess how much AI helped you understand the task before starting the implementation.
+            This includes understanding business requirements, existing code, architecture,
+            APIs, design documents, user stories, and functional behaviour.
+        </p>
+
+        <p>
+            Also consider how much understanding came from your own experience,
+            code investigation, discussions with team members, or manual analysis.
+        </p>
+
+        <p><strong>Ask yourself</strong></p>
+
+        <ul>
+            <li>Did AI explain the requirements clearly?</li>
+            <li>Did AI help me understand existing code?</li>
+            <li>Did AI identify important classes or methods?</li>
+            <li>Or did I understand the task mostly by myself?</li>
+        </ul>
+
+        <p><strong>Example</strong></p>
+
+        <div class="example">
+            <b>Task</b><br>
+            Fix a NullReferenceException in PatientService.<br><br>
+
+            AI explained the business flow, identified the related classes,
+            and summarized the existing implementation.
+            The developer verified the explanation and explored one additional class.
+        </div>
+
+        <hr>
+
+        <h3>Investigate (25%)</h3>
+
+        <p><strong>What are you assessing?</strong></p>
+
+        <p>
+            Assess how much AI helped investigate the problem,
+            identify the root cause, compare possible solutions,
+            or decide the implementation approach.
+        </p>
+
+        <p>
+            Also consider how much investigation was completed manually
+            through debugging, log analysis, and your own experience.
+        </p>
+
+        <p><strong>Ask yourself</strong></p>
+
+        <ul>
+            <li>Did AI help identify the root cause?</li>
+            <li>Did AI suggest useful debugging steps?</li>
+            <li>Did AI compare different implementation options?</li>
+            <li>Or did I perform most of the investigation myself?</li>
+        </ul>
+
+        <div class="example">
+            <b>Example</b><br>
+
+            AI analysed the exception stack trace and suggested
+            that patient mapping returned a null object.
+            The developer confirmed the issue through debugging
+            and application logs.
+        </div>
+
+        <hr>
+
+        <h3>Create (30%)</h3>
+
+        <p><strong>What are you assessing?</strong></p>
+
+        <p>
+            Assess how much AI contributed while creating the solution,
+            including source code, unit tests, SQL queries,
+            documentation, APIs, or refactoring.
+        </p>
+
+        <p>
+            Also consider how much of the final implementation
+            was written, modified, or improved by you.
+        </p>
+
+        <p><strong>Ask yourself</strong></p>
+
+        <ul>
+            <li>Did AI generate most of the implementation?</li>
+            <li>Did AI only provide suggestions?</li>
+            <li>How much code did I rewrite?</li>
+            <li>How much of the final solution came from me?</li>
+        </ul>
+
+        <div class="example">
+            <b>Example</b><br>
+
+            AI generated the repository,
+            controller and unit tests.
+            The developer improved validations,
+            error handling and business logic.
+        </div>
+
+        <hr>
+
+        <h3>Verify (15%)</h3>
+
+        <p><strong>What are you assessing?</strong></p>
+
+        <p>
+            Assess how much AI helped verify the correctness
+            and quality of the completed work.
+            This includes reviewing code,
+            identifying defects,
+            validating business logic,
+            generating test cases,
+            and suggesting improvements.
+        </p>
+
+        <p><strong>Ask yourself</strong></p>
+
+        <ul>
+            <li>Did AI review the implementation?</li>
+            <li>Did AI identify bugs or edge cases?</li>
+            <li>Did AI generate useful test cases?</li>
+            <li>Or did I perform most verification manually?</li>
+        </ul>
+
+        <div class="example">
+            <b>Example</b><br>
+
+            AI suggested additional edge-case tests
+            and identified a missing null check.
+            The developer validated the solution
+            and executed the final tests.
+        </div>
+
+        <hr>
+
+        <h3>Deliver (10%)</h3>
+
+        <p><strong>What are you assessing?</strong></p>
+
+        <p>
+            Assess how much AI helped prepare the work
+            for delivery and collaboration.
+            This includes pull request descriptions,
+            release notes,
+            documentation,
+            review comments,
+            commit messages,
+            and stakeholder communication.
+        </p>
+
+        <p><strong>Ask yourself</strong></p>
+
+        <ul>
+            <li>Did AI prepare the PR description?</li>
+            <li>Did AI help with documentation?</li>
+            <li>Did AI draft responses to review comments?</li>
+            <li>Or did I prepare everything myself?</li>
+        </ul>
+
+        <div class="example">
+            <b>Example</b><br>
+
+            AI drafted the pull request description
+            and release notes.
+            The developer customised the content
+            before submitting the changes.
+        </div>
+
+    </div>
+	
+	        <hr>
+	
+	<h2>AI Involvement Guide</h2>
+
+<div class="guide-card">
+
+    <h3>None (0%)</h3>
+
+    <p><strong>When to choose</strong></p>
+
+    <p>
+        Select this when AI was not used during this phase,
+        or its response had no meaningful impact on your work.
+    </p>
+
+    <p><strong>Example</strong></p>
+
+    <p>
+        You understood the requirement entirely by reading the
+        Jira story and existing code without using AI.
+    </p>
+
+</div>
+
+	        <hr>
+
+<div class="guide-card">
+
+    <h3>Explained (25%)</h3>
+
+    <p><strong>When to choose</strong></p>
+
+    <p>
+        Select this when AI helped explain concepts,
+        requirements, architecture, APIs, or existing code,
+        but did not suggest a solution.
+    </p>
+
+    <p><strong>Example</strong></p>
+
+    <p>
+        AI explained how the PatientService workflow operates,
+        helping you understand the implementation before coding.
+    </p>
+
+</div>
+
+<hr>
+
+<div class="guide-card">
+
+    <h3>Suggested (50%)</h3>
+
+    <p><strong>When to choose</strong></p>
+
+    <p>
+        Select this when AI proposed possible solutions,
+        approaches, or improvements that influenced your work,
+        but you decided how to implement them.
+    </p>
+
+    <p><strong>Example</strong></p>
+
+    <p>
+        AI suggested adding a null check and recommended
+        using dependency injection for better design.
+    </p>
+
+</div>
+
+<hr>
+
+<div class="guide-card">
+
+    <h3>Generated (75%)</h3>
+
+    <p><strong>When to choose</strong></p>
+
+    <p>
+        Select this when AI generated a significant portion of
+        the work, such as source code, unit tests, SQL queries,
+        documentation, or implementation logic, and you modified
+        or refined the output before using it.
+    </p>
+
+    <p><strong>Example</strong></p>
+
+    <p>
+        AI generated the repository, controller, and unit tests.
+        You improved validations, error handling, and business logic.
+    </p>
+
+</div>
+
+<hr>
+
+<div class="guide-card">
+
+    <h3>Completed (100%)</h3>
+
+    <p><strong>When to choose</strong></p>
+
+    <p>
+        Select this when AI completed almost the entire activity
+        with minimal human effort. Your contribution was limited
+        to reviewing, validating, or accepting the output.
+    </p>
+
+    <p><strong>Example</strong></p>
+
+    <p>
+        AI generated the complete pull request description,
+        release notes, and documentation. You reviewed the content
+        and submitted it without significant changes.
+    </p>
+
+</div>
+
+<hr>
+
+</div>

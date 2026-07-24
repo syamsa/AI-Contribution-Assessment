@@ -1,3 +1,13 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Assessment Guide</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
 <div class="right">
 
     <h2>Assessment Guide</h2>
@@ -299,4 +309,119 @@
 
 <hr>
 
+<h2>Understanding Your Results</h2>
+
+<p>
+    When you press <strong>Calculate</strong>, the tool shows two things:
+    the <strong>Results</strong> (three headline numbers) and the
+    <strong>Calculation Details</strong> (a phase-by-phase breakdown).
+    Here is what they mean in everyday language.
+</p>
+
+<div class="guide-card">
+    <h3>AI Provided % &mdash; "How much did I lean on AI?"</h3>
+    <p>
+        This is how much the AI offered to do on the task, across all five phases.
+        A high number means you asked AI to do a lot of the work.
+        A low number means you did most of the thinking and writing yourself.
+    </p>
 </div>
+
+<hr>
+
+<div class="guide-card">
+    <h3>AI Accept % &mdash; "How good was the AI's help?"</h3>
+    <p>
+        Out of everything the AI gave you, this is how much you actually kept
+        instead of rewriting it or throwing it away.
+        A high number means the suggestions were useful and trustworthy.
+        A low number means you had to fix or replace most of what AI produced.
+    </p>
+    <p>
+        If you did not use AI at all, this shows a dash ("&mdash;"),
+        because there is nothing to accept.
+    </p>
+</div>
+
+<hr>
+
+<div class="guide-card">
+    <h3>Net AI Contribution % &mdash; "What was AI's real share?"</h3>
+    <p>
+        This is the AI's share of the finished work, after your edits are counted.
+        It is the bottom-line number: at the end of the day,
+        how much of the delivered work actually came from AI.
+    </p>
+</div>
+
+<hr>
+
+<h3>A simple analogy</h3>
+
+<p>Imagine AI is an assistant chef helping you cook a meal:</p>
+
+<ul>
+    <li><strong>AI Provided %</strong> &mdash; how much of the meal the assistant offered to cook.</li>
+    <li><strong>AI Accept %</strong> &mdash; how much of that you actually served, instead of re-cooking it yourself.</li>
+    <li><strong>Net AI Contribution %</strong> &mdash; how much of the meal finally on the table was really the assistant's work.</li>
+</ul>
+
+<hr>
+
+<h3>What "Calculation Details" shows</h3>
+
+<p>This is the table behind the numbers. For each phase it shows:</p>
+
+<ul>
+    <li><strong>Weight</strong> &mdash; how important the phase is. The five weights add up to 100.</li>
+    <li><strong>AI Provided</strong> &mdash; how much AI offered in that phase.</li>
+    <li><strong>Human Kept</strong> &mdash; how much of AI's help you kept (100% = used as-is, 0% = discarded).</li>
+    <li><strong>Net</strong> &mdash; AI's real contribution for that phase.</li>
+</ul>
+
+<p>The totals at the bottom of the table add up to the three headline numbers.</p>
+
+<hr>
+
+<h3>A real-world example</h3>
+
+<div class="example">
+    <b>Task: Fix a login bug where users cannot sign in.</b>
+    <br><br>
+    Here is how a developer filled in the assessment:
+
+    <table>
+        <tr><th>Phase</th><th>What happened</th><th>AI level</th><th>Your action</th></tr>
+        <tr><td>Understand</td><td>AI explained the login flow clearly</td><td>Explained</td><td>Used As-Is</td></tr>
+        <tr><td>Investigate</td><td>You debugged; AI's idea needed reworking</td><td>Suggested</td><td>Moderate Edit</td></tr>
+        <tr><td>Create</td><td>AI wrote most of the fix; you adjusted it</td><td>Generated</td><td>Minor Edit</td></tr>
+        <tr><td>Verify</td><td>AI suggested the tests; you kept them</td><td>Suggested</td><td>Used As-Is</td></tr>
+        <tr><td>Deliver</td><td>AI wrote the PR description; you kept it</td><td>Completed</td><td>Used As-Is</td></tr>
+    </table>
+
+    <br>
+    <b>The results that come out:</b>
+    <ul>
+        <li><strong>AI Provided % = 57.5%</strong> &mdash; AI offered to do a bit more than half of the whole task.</li>
+        <li><strong>AI Accept % = 83%</strong> &mdash; you kept about 83% of what AI offered, so its help was solid.</li>
+        <li><strong>Net AI Contribution % = 48%</strong> &mdash; after your edits, about half of the finished work came from AI.</li>
+    </ul>
+
+    <b>In one sentence:</b>
+    "AI helped a lot and its suggestions were mostly good, but I still did about half of the real work myself."
+
+    <br><br>
+    <b>Behind the numbers (for the curious):</b>
+    <br>
+    AI Provided adds up what AI offered in each phase: 5 + 12.5 + 22.5 + 7.5 + 10 = 57.5.
+    <br>
+    Net adds up what survived your edits: 5 + 7.5 + 18 + 7.5 + 10 = 48.
+    <br>
+    AI Accept % is simply 48 out of 57.5, which is about 83%.
+</div>
+
+</div>
+
+</body>
+
+</html>
